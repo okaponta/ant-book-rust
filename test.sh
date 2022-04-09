@@ -2,6 +2,8 @@
 
 function test() {
     echo "test for $1"
+    echo "---INPUT----"
+    cat ./test/in/$1.txt
     command `(cargo run --bin $1 < ./test/in/$1.txt) > ./test/output/$1.txt`
     echo "---OUTPUT---"
     cat ./test/output/$1.txt
@@ -14,4 +16,5 @@ function test() {
         echo "---EXPECT---"
         cat ./test/out/$1.txt
     fi
+    rm -rf ./test/output/$1.txt
 }

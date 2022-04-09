@@ -14,6 +14,6 @@ fn main() {
         min = min.max(left.min(right));
         max = max.max(left.max(right));
     }
-    println!("min {}", min);
-    println!("max {}", max);
+    println!("{}", min);
+    println!("{}", max);
 }

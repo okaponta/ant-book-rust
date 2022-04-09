@@ -11,3 +11,38 @@ proconio = "0.4.3"
 [[bin]]
 name = "1-1a"
 path = "src/bin/1-1a-kujibiki.rs"
+
+[[bin]]
+name = "1-6a"
+path = "src/bin/1-6a-triangle.rs"
+
+[[bin]]
+name = "1-6b"
+path = "src/bin/1-6b-ants.rs"
+
+[[bin]]
+name = "1-6c"
+path = "src/bin/1-6c-kujibiki.rs"
+
+[[bin]]
+name = "2-1a"
+path = "src/bin/2-1a-bubunwa.rs"
+
+[[bin]]
+name = "2-1b"
+path = "src/bin/2-1b-lake-counting.rs"
+
+[[bin]]
+name = "2-1c"
+path = "src/bin/2-1c-maze.rs"
+
+[[bin]]
+name = "2-2a"
+path = "src/bin/2-2a-coin.rs"
+
+[[bin]]
+name = "2-2b"
+path = "src/bin/2-2b-kukan-scheduling.rs"
+
+
+
