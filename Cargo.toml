@@ -44,5 +44,11 @@ path = "src/bin/2-2a-coin.rs"
 name = "2-2b"
 path = "src/bin/2-2b-kukan-scheduling.rs"
 
+[[bin]]
+name = "2-2c"
+path = "src/bin/2-2c-best-cow-line.rs"
 
+[[bin]]
+name = "2-2d"
+path = "src/bin/2-2d-saruans-army.rs"
 
