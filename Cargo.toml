@@ -56,3 +56,6 @@ path = "src/bin/2-2d-saruans-army.rs"
 name = "2-2e"
 path = "src/bin/2-2e-fence-repair.rs"
 
+[[bin]]
+name = "2-3a"
+path = "src/bin/2-3a-knapsack.rs"
