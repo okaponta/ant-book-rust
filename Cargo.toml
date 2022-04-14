@@ -59,3 +59,7 @@ path = "src/bin/2-2e-fence-repair.rs"
 [[bin]]
 name = "2-3a"
 path = "src/bin/2-3a-knapsack.rs"
+
+[[bin]]
+name = "2-3b"
+path = "src/bin/2-3b-lcs.rs"
