@@ -15,7 +15,7 @@ fn main() {
                 // 重さがj以上はそのまま
                 dp[i + 1][j] = dp[i][j];
             } else {
-                dp[i + 1][j] = dp[i][j].max(dp[i][j - wv[i].0] + wv[i].1);
+                dp[i + 1][j] = dp[i][j].max(dp[i + 1][j - wv[i].0] + wv[i].1);
             }
         }
     }

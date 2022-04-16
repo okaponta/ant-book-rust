@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 proconio = "0.4.3"
+superslice = "1.0.0"
 
 [[bin]]
 name = "1-1a"
@@ -63,6 +64,22 @@ path = "src/bin/2-3a-knapsack.rs"
 [[bin]]
 name = "2-3b"
 path = "src/bin/2-3b-lcs.rs"
+
+[[bin]]
+name = "2-3c"
+path = "src/bin/2-3c-knapsack-unlimited.rs"
+
+[[bin]]
+name = "2-3d"
+path = "src/bin/2-3d-knapsack2.rs"
+
+[[bin]]
+name = "2-3e"
+path = "src/bin/2-3e-lis.rs"
+
+[[bin]]
+name = "2-3f"
+path = "src/bin/2-3f-division-num.rs"
 
 [[bin]]
 name = "3-5a"
