@@ -86,6 +86,10 @@ name = "2-3g"
 path = "src/bin/2-3g-duplicate-combination.rs"
 
 [[bin]]
+name = "2-4a"
+path = "src/bin/2-4a-expedition.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
