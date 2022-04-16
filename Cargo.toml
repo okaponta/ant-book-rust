@@ -63,3 +63,15 @@ path = "src/bin/2-3a-knapsack.rs"
 [[bin]]
 name = "2-3b"
 path = "src/bin/2-3b-lcs.rs"
+
+[[bin]]
+name = "3-5a"
+path = "src/bin/3-5a-max-flow.rs"
+
+[[bin]]
+name = "3-5b"
+path = "src/bin/3-5b-bipartite-matching.rs"
+
+[[bin]]
+name = "3-5c"
+path = "src/bin/3-5c-min-cost-flow.rs"
