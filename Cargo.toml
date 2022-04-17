@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+petgraph = "0.6.0"
 proconio = "0.4.3"
 superslice = "1.0.0"
 
@@ -88,6 +89,10 @@ path = "src/bin/2-3g-duplicate-combination.rs"
 [[bin]]
 name = "2-4a"
 path = "src/bin/2-4a-expedition.rs"
+
+[[bin]]
+name = "2-4b"
+path = "src/bin/2-4b-food-chain.rs"
 
 [[bin]]
 name = "3-5a"
