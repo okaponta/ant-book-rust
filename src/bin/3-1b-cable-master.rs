@@ -10,6 +10,7 @@ fn main() {
     let mut upper = 1e18;
     while upper - lower > 1e-5 {
         let med = (lower + upper) / 2.0;
+        // 最大化
         if can_longer(&l, k, med) {
             lower = med;
         } else {
