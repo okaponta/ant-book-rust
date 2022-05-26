@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 num-integer = "0.1.45"
 petgraph = "0.6.0"
-proconio = "0.4.3"
+proconio = { version = "0.4.3", features = ["derive"] }
 superslice = "1.0.0"
 
 [[bin]]
@@ -126,6 +126,10 @@ path = "src/bin/2-6c-eratosthenes.rs"
 [[bin]]
 name = "2-6d"
 path = "src/bin/2-6d-seg-eratosthenes.rs"
+
+[[bin]]
+name = "2-6e"
+path = "src/bin/2-6e-carmichael.rs"
 
 [[bin]]
 name = "3-5a"
