@@ -115,6 +115,10 @@ name = "2-6a"
 path = "src/bin/2-6a-gcd.rs"
 
 [[bin]]
+name = "2-6b"
+path = "src/bin/2-6b-extend-gcd.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
