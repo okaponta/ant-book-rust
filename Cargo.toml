@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+num-integer = "0.1.45"
 petgraph = "0.6.0"
 proconio = "0.4.3"
 superslice = "1.0.0"
@@ -117,6 +118,10 @@ path = "src/bin/2-6a-gcd.rs"
 [[bin]]
 name = "2-6b"
 path = "src/bin/2-6b-extend-gcd.rs"
+
+[[bin]]
+name = "2-6c"
+path = "src/bin/2-6c-eratosthenes.rs"
 
 [[bin]]
 name = "3-5a"
