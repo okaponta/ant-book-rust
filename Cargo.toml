@@ -124,6 +124,10 @@ name = "2-6c"
 path = "src/bin/2-6c-eratosthenes.rs"
 
 [[bin]]
+name = "2-6d"
+path = "src/bin/2-6d-seg-eratosthenes.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
