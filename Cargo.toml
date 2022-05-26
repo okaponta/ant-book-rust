@@ -132,6 +132,10 @@ name = "2-6e"
 path = "src/bin/2-6e-carmichael.rs"
 
 [[bin]]
+name = "3-1a"
+path = "src/bin/3-1a-lower-bound.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
