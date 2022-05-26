@@ -152,6 +152,10 @@ name = "3-2a"
 path = "src/bin/3-2a-subsequence.rs"
 
 [[bin]]
+name = "3-2b"
+path = "src/bin/3-2b-jessicas-reading.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
