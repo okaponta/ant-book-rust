@@ -144,6 +144,10 @@ name = "3-1c"
 path = "src/bin/3-1c-aggressive-cows.rs"
 
 [[bin]]
+name = "3-1d"
+path = "src/bin/3-1d-average-max.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
