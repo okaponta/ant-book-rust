@@ -156,6 +156,10 @@ name = "3-2b"
 path = "src/bin/3-2b-jessicas-reading.rs"
 
 [[bin]]
+name = "3-2c"
+path = "src/bin/3-2c-face-the-right-way.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
