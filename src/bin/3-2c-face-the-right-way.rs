@@ -16,6 +16,7 @@ fn main() {
     // kは牛の数
     for k in 1..n {
         let mut count = 0;
+        // 区間でひっくりかえした総数を保持
         let mut sum = 0;
         // ひっくり返すときはflip[i]=1とする
         let mut flip = vec![0; n];
@@ -27,10 +28,12 @@ fn main() {
                 sum += 1;
             }
             if k <= i + 1 {
+                // 左の区間で減った分を考慮
                 sum -= flip[i + 1 - k];
             }
         }
         let mut is_ok = true;
+        // 残った牛の整合性チェック
         for i in n + 1 - k..n {
             if (sum + is_back[i]) % 2 == 1 {
                 is_ok = false;
