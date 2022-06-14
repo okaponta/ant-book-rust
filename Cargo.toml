@@ -165,6 +165,10 @@ name = "3-2d"
 path = "src/bin/3-2d-fliptile.rs"
 
 [[bin]]
+name = "3-2e"
+path = "src/bin/3-2e-physics-experiment.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
