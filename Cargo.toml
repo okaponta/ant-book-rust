@@ -169,6 +169,10 @@ name = "3-2e"
 path = "src/bin/3-2e-physics-experiment.rs"
 
 [[bin]]
+name = "3-2f"
+path = "src/bin/3-2f-4-values-whose-sum-is-0.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
