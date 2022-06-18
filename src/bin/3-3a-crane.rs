@@ -10,6 +10,7 @@ fn main() {
         s:[usize;c],
         a:[usize;c],
     }
+    // 完全二分木じゃなくて、midが1になるまでのデータ構造になってる
     let mut seg = SegmentTree::new(n);
     seg.init(0, 0, n, &l);
     let mut prv = vec![PI; n];
