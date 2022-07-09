@@ -185,6 +185,10 @@ name = "3-3a"
 path = "src/bin/3-3a-crane.rs"
 
 [[bin]]
+name = "3-3b"
+path = "src/bin/3-3b-bubble-sort.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
