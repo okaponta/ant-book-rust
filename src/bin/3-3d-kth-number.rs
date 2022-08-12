@@ -30,23 +30,27 @@ fn main() {
             let mut tl = i;
             let mut tr = j;
             let mut count = 0;
+            // 左をバケットの境目まで足していく
             while tl < tr && tl % b != 0 {
                 if a[tl] <= x {
                     count += 1;
                 }
                 tl += 1;
             }
+            // 右をバケットの境目まで引いていく
             while tl < tr && tr % b != 0 {
                 tr -= 1;
                 if a[tr] <= x {
                     count += 1;
                 }
             }
+            // ここまできたら、バケットごとにソートされている
             while tl < tr {
                 let target = tl / b;
                 count += buckets[target].upper_bound(&x);
                 tl += b;
             }
+
             if count >= k {
                 upper = med;
             } else {

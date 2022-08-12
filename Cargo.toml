@@ -197,6 +197,10 @@ name = "3-3d"
 path = "src/bin/3-3d-kth-number.rs"
 
 [[bin]]
+name = "3-3e"
+path = "src/bin/3-3e-kth-number.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
