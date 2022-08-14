@@ -209,6 +209,10 @@ name = "3-4b"
 path = "src/bin/3-4b-traveling-by-stagecoach.rs"
 
 [[bin]]
+name = "3-4c"
+path = "src/bin/3-4c-domino.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
