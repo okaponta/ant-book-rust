@@ -8,7 +8,7 @@ fn main() {
     // フィボナッチの漸化式を行列で表現
     let a = nalgebra::Matrix2::new(1, 1, 1, 0);
     let a = pow(a, n, modulo);
-    println!("{}", a[(1, 0)]);
+    println!("{}", a.index((1, 0)));
 }
 
 // 行列式のn乗
