@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 itertools = "0.10.3"
+nalgebra = "0.31.1"
 num-integer = "0.1.45"
 petgraph = "0.6.0"
 proconio = { version = "0.4.3", features = ["derive"] }
@@ -211,6 +212,10 @@ path = "src/bin/3-4b-traveling-by-stagecoach.rs"
 [[bin]]
 name = "3-4c"
 path = "src/bin/3-4c-domino.rs"
+
+[[bin]]
+name = "3-4d"
+path = "src/bin/3-4d-fibonacci.rs"
 
 [[bin]]
 name = "3-5a"
