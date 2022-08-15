@@ -7,7 +7,7 @@ fn main() {
         n:Usize1,
     }
     let modulo = 1000;
-    // 行列
+    // フィボナッチの漸化式を行列で表現
     let a = nalgebra::Matrix2::new(1, 1, 1, 0);
     let a = pow(a, n, modulo);
     println!("{}", a[(1, 0)]);
@@ -21,7 +21,7 @@ fn pow(mut a: nalgebra::Matrix2<usize>, mut n: usize, modulo: usize) -> nalgebra
             b = b.mul(a);
             rem(&mut b, modulo);
         }
-        a = a.mul(a);
+        a = a.pow(2);
         rem(&mut a, modulo);
         n >>= 1;
     }
