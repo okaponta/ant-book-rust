@@ -1,5 +1,3 @@
-use std::ops::Mul;
-
 use proconio::{input, marker::Usize1};
 
 fn main() {
@@ -18,10 +16,10 @@ fn pow(mut a: nalgebra::Matrix2<usize>, mut n: usize, modulo: usize) -> nalgebra
     let mut b = a.clone();
     while 0 < n {
         if n & 1 == 1 {
-            b = b.mul(a);
+            b = b * a;
             rem(&mut b, modulo);
         }
-        a = a.pow(2);
+        a = a * a;
         rem(&mut a, modulo);
         n >>= 1;
     }
