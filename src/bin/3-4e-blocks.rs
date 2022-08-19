@@ -1,8 +1,8 @@
-use proconio::{input, marker::Usize1};
+use proconio::input;
 
 fn main() {
     input! {
-        n:Usize1,
+        n:usize,
     }
     let modulo = 10007;
     // フィボナッチの漸化式を行列で表現
@@ -13,7 +13,7 @@ fn main() {
 
 // 行列式のn乗
 fn pow(mut a: nalgebra::Matrix3<usize>, mut n: usize, modulo: usize) -> nalgebra::Matrix3<usize> {
-    let mut b = a.clone();
+    let mut b = nalgebra::Matrix3::new(1, 0, 0, 0, 1, 0, 0, 0, 1);
     while 0 < n {
         if n & 1 == 1 {
             b = b * a;
