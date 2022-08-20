@@ -64,18 +64,6 @@ fn multiply(a: &Vec<Vec<usize>>, b: &Vec<Vec<usize>>, n: usize) -> Vec<Vec<usize
             }
         }
     }
-    // println!("A");
-    // for i in 0..n {
-    //     println!("{}", a[i].iter().join(" "));
-    // }
-    // println!("B");
-    // for i in 0..n {
-    //     println!("{}", b[i].iter().join(" "));
-    // }
-    // println!("RES");
-    // for i in 0..n {
-    //     println!("{}", res[i].iter().join(" "));
-    // }
     res
 }
 
