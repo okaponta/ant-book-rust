@@ -226,6 +226,10 @@ name = "3-4f"
 path = "src/bin/3-4f-matrix-power-series.rs"
 
 [[bin]]
+name = "3-4g"
+path = "src/bin/3-4g-minimizing-maximizer.rs"
+
+[[bin]]
 name = "3-5a"
 path = "src/bin/3-5a-max-flow.rs"
 
