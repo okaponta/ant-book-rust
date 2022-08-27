@@ -240,3 +240,7 @@ path = "src/bin/3-5b-bipartite-matching.rs"
 [[bin]]
 name = "3-5c"
 path = "src/bin/3-5c-min-cost-flow.rs"
+
+[[bin]]
+name = "3-5d"
+path = "src/bin/3-5d-asteroids.rs"
