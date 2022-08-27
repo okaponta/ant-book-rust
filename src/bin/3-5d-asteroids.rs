@@ -11,6 +11,7 @@ fn main() {
     for (r, c) in rc {
         b.join_edge(r, c);
     }
+    // 2部グラフの最小点カバーは最大マッチングと同じ
     println!("{}", b.max_matching());
 }
 
