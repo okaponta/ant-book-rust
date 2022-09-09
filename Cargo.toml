@@ -256,3 +256,7 @@ path = "src/bin/3-5f-dual-core-cpu.rs"
 [[bin]]
 name = "3-5g"
 path = "src/bin/3-5g-farm-tour.rs"
+
+[[bin]]
+name = "3-5h"
+path = "src/bin/3-5h-evacuation-plan.rs"
