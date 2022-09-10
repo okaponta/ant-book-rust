@@ -264,3 +264,7 @@ path = "src/bin/3-5h-evacuation-plan.rs"
 [[bin]]
 name = "3-5i"
 path = "src/bin/3-5i-the-windys.rs"
+
+[[bin]]
+name = "3-5j"
+path = "src/bin/3-5j-intervals.rs"
