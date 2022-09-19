@@ -78,7 +78,7 @@ where
         V2 { x: p.0, y: p.1 }
     }
 
-    pub fn mul(&mut self, ope: T) -> Self {
+    pub fn mul(&self, ope: T) -> Self {
         Self {
             x: self.x * ope,
             y: self.y * ope,
