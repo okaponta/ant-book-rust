@@ -268,3 +268,7 @@ path = "src/bin/3-5i-the-windys.rs"
 [[bin]]
 name = "3-5j"
 path = "src/bin/3-5j-intervals.rs"
+
+[[bin]]
+name = "3-6a"
+path = "src/bin/3-6a-jack-straws.rs"
