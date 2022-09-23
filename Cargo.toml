@@ -272,3 +272,7 @@ path = "src/bin/3-5j-intervals.rs"
 [[bin]]
 name = "3-6a"
 path = "src/bin/3-6a-jack-straws.rs"
+
+[[bin]]
+name = "3-6b"
+path = "src/bin/3-6b-beauty-contest.rs"
