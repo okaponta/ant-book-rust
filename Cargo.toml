@@ -280,3 +280,7 @@ path = "src/bin/3-6b-beauty-contest.rs"
 [[bin]]
 name = "3-6c"
 path = "src/bin/3-6c-intersection-of-two-prisms.rs"
+
+[[bin]]
+name = "4-1a"
+path = "src/bin/4-1a-gauss-jordan.rs"
