@@ -288,3 +288,7 @@ path = "src/bin/4-1a-gauss-jordan.rs"
 [[bin]]
 name = "4-1b"
 path = "src/bin/4-1b-inclusion-exclusion.rs"
+
+[[bin]]
+name = "4-1c"
+path = "src/bin/4-1c-moebius.rs"
