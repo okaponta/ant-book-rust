@@ -296,3 +296,7 @@ path = "src/bin/4-1c-moebius.rs"
 [[bin]]
 name = "4-1d"
 path = "src/bin/4-1d-polia.rs"
+
+[[bin]]
+name = "4-2a"
+path = "src/bin/4-2a-coin-game1.rs"
