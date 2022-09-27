@@ -308,3 +308,7 @@ path = "src/bin/4-2b-euclid-game.rs"
 [[bin]]
 name = "4-2c"
 path = "src/bin/4-2c-nim.rs"
+
+[[bin]]
+name = "4-2d"
+path = "src/bin/4-2d-georgia-and-bob.rs"
