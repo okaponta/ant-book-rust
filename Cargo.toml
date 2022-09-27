@@ -300,3 +300,7 @@ path = "src/bin/4-1d-polia.rs"
 [[bin]]
 name = "4-2a"
 path = "src/bin/4-2a-coin-game1.rs"
+
+[[bin]]
+name = "4-2b"
+path = "src/bin/4-2b-euclid-game.rs"
