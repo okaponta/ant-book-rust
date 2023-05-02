@@ -320,3 +320,7 @@ path = "src/bin/4-2e-coin-game2.rs"
 [[bin]]
 name = "4-2f"
 path = "src/bin/4-2f-cutting-game.rs"
+
+[[bin]]
+name = "4-3a"
+path = "src/bin/4-3a-popular-cows.rs"
