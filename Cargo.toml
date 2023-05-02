@@ -328,3 +328,7 @@ path = "src/bin/4-3a-popular-cows.rs"
 [[bin]]
 name = "4-3b"
 path = "src/bin/4-3b-priest-johns-busiest-day.rs"
+
+[[bin]]
+name = "4-3c"
+path = "src/bin/4-3c-housewife-kind.rs"
