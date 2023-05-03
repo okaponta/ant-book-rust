@@ -332,3 +332,7 @@ path = "src/bin/4-3b-priest-johns-busiest-day.rs"
 [[bin]]
 name = "4-3c"
 path = "src/bin/4-3c-housewife-kind.rs"
+
+[[bin]]
+name = "4-4a"
+path = "src/bin/4-4a-largest-rectangle.rs"
