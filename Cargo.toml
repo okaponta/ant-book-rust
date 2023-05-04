@@ -340,3 +340,7 @@ path = "src/bin/4-4a-largest-rectangle.rs"
 [[bin]]
 name = "4-4b"
 path = "src/bin/4-4b-slide-min.rs"
+
+[[bin]]
+name = "4-4c"
+path = "src/bin/4-4c-knapsack-limited-number.rs"
