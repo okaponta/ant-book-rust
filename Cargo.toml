@@ -348,3 +348,7 @@ path = "src/bin/4-4c-knapsack-limited-number.rs"
 [[bin]]
 name = "4-6a"
 path = "src/bin/4-6a-bubble-sort.rs"
+
+[[bin]]
+name = "4-7a"
+path = "src/bin/4-7a-banned-string.rs"
