@@ -22,6 +22,15 @@ fn suffix_array(s: &Vec<char>) -> Vec<usize> {
         rank[i] = if i < n { s[i] as i32 } else { -1 };
     }
 
+    fn compare_sa(i: usize, j: usize, k: usize, n: usize, rank: &Vec<i32>) -> Ordering {
+        if rank[i] != rank[j] {
+            return rank[i].cmp(&rank[j]);
+        }
+        let ri = if i + k <= n { rank[i + k] } else { -1 };
+        let rj = if j + k <= n { rank[j + k] } else { -1 };
+        ri.cmp(&rj)
+    }
+
     let mut k = 1;
     while k <= n {
         sa.sort_by(|&a, &b| compare_sa(a, b, k, n, &rank));
@@ -40,13 +49,4 @@ fn suffix_array(s: &Vec<char>) -> Vec<usize> {
         k *= 2;
     }
     sa
-}
-
-fn compare_sa(i: usize, j: usize, k: usize, n: usize, rank: &Vec<i32>) -> Ordering {
-    if rank[i] != rank[j] {
-        return rank[i].cmp(&rank[j]);
-    }
-    let ri = if i + k <= n { rank[i + k] } else { -1 };
-    let rj = if j + k <= n { rank[j + k] } else { -1 };
-    ri.cmp(&rj)
 }
