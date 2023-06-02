@@ -356,3 +356,7 @@ path = "src/bin/4-7a-banned-string.rs"
 [[bin]]
 name = "4-7b"
 path = "src/bin/4-7b-suffix-array.rs"
+
+[[bin]]
+name = "4-7c"
+path = "src/bin/4-7c-common-substring.rs"
