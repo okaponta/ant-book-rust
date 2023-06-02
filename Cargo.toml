@@ -360,3 +360,7 @@ path = "src/bin/4-7b-suffix-array.rs"
 [[bin]]
 name = "4-7c"
 path = "src/bin/4-7c-common-substring.rs"
+
+[[bin]]
+name = "4-7d"
+path = "src/bin/4-7d-longest-palindrome.rs"
