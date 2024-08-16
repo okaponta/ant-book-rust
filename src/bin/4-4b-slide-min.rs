@@ -16,7 +16,7 @@ fn main() {
     let mut ans = vec![];
     for i in 0..n {
         while let Some(b) = q.pop_back() {
-            if b < a[i] {
+            if a[b] < a[i] {
                 q.push_back(b);
                 break;
             }
